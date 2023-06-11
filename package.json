@@ -1,0 +1,25 @@
+{
+  "name": "tips-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "dist/bin/index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon dist/bin/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@types/minimist": "^1.2.2",
+    "@types/node": "^20.3.0",
+    "minimist": "^1.2.8",
+    "ramda": "^0.29.0",
+    "typescript": "^5.1.3"
+  }
+}
